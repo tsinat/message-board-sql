@@ -45,7 +45,7 @@ function deleteMessage(e) {
 
     // console.log(id);
     $.ajax({
-        url: `/message/:${id}`,
+        url: `/message/${id}`,
         type: 'DELETE',
         success: function(response) {
             console.log('response: ',response);

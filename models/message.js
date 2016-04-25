@@ -35,7 +35,7 @@ exports.delete = function(id, cb){
     // db.run('delete from messages where id=?',[id], function(err){
         // console.log('delete function is called');
         if(err) return cb(err);
-        cb(null, id);
+        cb(null);
     });
 
 }
